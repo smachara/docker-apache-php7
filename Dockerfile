@@ -23,7 +23,9 @@ RUN apt-get install -y \
 	php-imagick \
 	php-mcrypt \
 	php-json \
-	php-gd 
+	php-gd \ 
+        php7.0-dom \
+        git
 	
 RUN rm -rf /var/lib/apt/lists/* 
 
