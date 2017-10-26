@@ -9,7 +9,7 @@ Includes composer for easy download of php libraries
 ### Examples
 
 - plain, accessable on port 8080 `docker run -d -p 8080:80 nimmis/apache-php7`
-- with external contents in /home/smachara/html `docker run -d -p 8080:80 -v /home/samer/html:/var/www/html nimmis/apache-php7`
+- with external contents in /home/smachara/html `docker run -d -p 8080:80 -v /home/samer/html:/var/www/html smachara2/apache-php7`
 
 The docker container is started with the -d flag so it will run inte the background. To run commands or edit settings inside
 the container run `docker exec -ti <container id> /bin/bash'
