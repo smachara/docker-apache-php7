@@ -33,4 +33,5 @@ RUN php -r "if (hash_file('SHA384', 'composer-setup.php') ===  '544e09ee996cdf60
 
 RUN php composer-setup.php --disable-tls
 
-RUN php -r "unlink('composer-setup.php');"cd 
+RUN php -r "unlink('composer-setup.php');"
+
